@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.image-slider{
+    width: 100%;
+}
+.timer{
+    text-align: center;
+    font-size: 30px;
+}
+.slide{
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+
+}
