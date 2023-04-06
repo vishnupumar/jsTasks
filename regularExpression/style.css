@@ -1,0 +1,17 @@
+.container{
+    border: 1px solid #d1d0d0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+#password{
+    height: 30px;
+    width: 180px;
+}
+.strength{
+    display: none;
+}
