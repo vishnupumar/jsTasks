@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(./images/tree-g19082aebd_1280.jpg);
+    background-size: cover;
+}
+.nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+.nav a:hover{
+    color: #5567be;
+    border-bottom: 1px solid #1340d4
+}
+.nav{
+    text-align: right;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+.home-content{
+    color: #fff;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.home-content h2{
+    margin-top: 25%;
+    padding: 10px;
+    font-size: 3rem;
+}
+.container{
+    color: #fff;
+}
+.home-content p{
+    padding: 10px;
+    font-size: 1rem;
+    text-align: justify;
+}
+.home-content button{
+    padding: 10px;
+    font-size: 1rem;
+    background-color: transparent;
+    border-color: #00ffbf;
+    color: #00fff2;
+    border-radius: 5px;
+}
+.home-content button:hover{
+    color: #1340d4;
+    background-color: #00ffbf;
+    cursor: pointer;
+}
+.contact{
+    width: 35%;
+    margin: auto;
+    margin-top: 10%;
+}
+.contact-heading{
+    text-align: center;
+}
+.contact-heading h2{
+   font-size: 2.5rem;
+}
+.contact-heading p{
+    font-size: 1.2rem;
+ }
+ .contact-inputs{
+    text-align: left;
+ }
+ .fullname{
+    justify-content: space-between;
+ }
+ .email{
+    margin: 10px 0;
+ }
+ .email input{
+    width: 100%;
+    padding: 10px;
+ }
+ .fname input{
+    width: 100%;
+    padding: 10px;
+ }
+ .lname input{
+    width: 100%;
+    padding: 10px;
+ }
+ .message textarea{
+    width: 100%;
+    padding: 10px;
+ }
+ .send-msg{
+    text-align: center;
+    margin-top: 10px;
+ }
+ .send-msg button{
+    padding: 5px 20px;
+    background-color: #ffbb00;
+    border-color: #ffbb00;
+    color: #867f7f;
+ }
+ .send-msg button:hover{
+    background-color: #cfa739;
+    cursor: pointer;
+ }
+ .image img{
+    border-radius: 50%;
+    background-color: #00ffbf;
+ }
+ .products{
+    background-color:#ffffff ;
+    border: 1px solid #00ffc8;
+    display: flex;
+    align-items: center;
+ }
+ .users{
+    text-align: center;
+ }
+ .right-product h2{
+    color: #1b725c;
+    margin-bottom: 30px;
+ }
+ .right-product h4{
+    margin: 10px;
+ }
+ .right-product p{
+    margin: 10px 10px 10px 25px;
+ }
+ .right-product{
+    width: 49%;
+    color: #000;
+ }
+ .left-product{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+ }
+ .left-nav-products{
+    width: 50%;
+    background-color: #000;
+    height: 100%;
+ }
+ .left-nav-products h3{
+    padding: 20px 0;
+    line-height: 5rem;
+    cursor: pointer;
+ }
+ .left-nav-products h3:hover{
+   background-color: #227963;
+   color: #000;
+ }
+ .left-img-products img{
+    height: 250px;
+    width: 300px;
+    padding: 20px;
+ }
+
