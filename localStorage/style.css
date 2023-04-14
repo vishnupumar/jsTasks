@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(30deg,#3c947e,#965050 10%,#965050,#3c947e
+    ,#3c947e,#965050 50%,#965050,#3c947e,
+    #3c947e 10%,#965050);
+    height: 100vh;
+}
+.person h1{
+    color: #fff;
+    font-size: 3rem;
+}
+.person input{
+    height: 20px;
+    width: 100%;
+    padding: 10px;
+}
+.btncss{
+    padding: 10px 20px;
+    background-color: #4c3c94;
+    border: none;
+    margin: 10px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+}
+.btncss:hover{
+    background-color: #2a2570;
+    
+}
+.personInfo{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(116, 175, 226);
+}
+.show{
+    display: block;
+}
+.edit{
+    cursor: pointer;
+    color:rgb(218, 109, 7);
+}
