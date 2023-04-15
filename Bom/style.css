@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    background-color: #c0bdbd;
+}
+.container{
+    width: 50%;
+    color: #c0bdbd;
+    text-align: left;
+    margin: auto;
+    background-color: rgb(55, 56, 56);
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #faf8f8;
+}
+.container h2,h4{
+    color: rgb(184, 63, 221);
+}
+.container hr{
+    border-color: rgb(209, 92, 137);
+}
