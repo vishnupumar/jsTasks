@@ -12,8 +12,8 @@ addPlayerBtn.addEventListener('click', addlist)
 
 function updateVal(e){
     let updateScore = e.currentTarget.children[2];
-    let del = e.target.classList
-    
+    let del = e.target.classList;
+    console.log(e.currentTarget.classList)
     if(del[1] === 'fa-trash'){
         console.log(e.currentTarget)
         e.currentTarget.remove();
@@ -45,9 +45,17 @@ function addlist(){
         </div>`
         newLi.classList.add('player')
         ul.appendChild(newLi)
-        
         newLi.addEventListener('click', updateVal)
+        
+    
     }
 
     
 }
+
+
+// window.onload=()=>{
+//     console.log(document.querySelector(".listParent").children)
+
+//     // .forEach(li=li.addEventListener('click', updateVal));
+// }

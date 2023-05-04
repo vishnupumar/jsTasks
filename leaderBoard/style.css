@@ -40,7 +40,7 @@ input[type=text]:focus{
         color: #fff;
         border: 1px solid rgb(252, 201, 230);
 }
-.del{
+.del>.fa-trash{
     color: rgb(253, 38, 38);
     background-color: #fff;
     padding: 15px;
@@ -55,7 +55,7 @@ input[type=text]:focus{
     display: none;
 
 }
-.del:hover{
+.del>.fa-trash:hover{
     background-color: #bee6d5;
 }
 .add:hover{
